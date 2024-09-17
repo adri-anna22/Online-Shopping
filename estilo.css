@@ -1,0 +1,145 @@
+body {
+  background-color: #83cbcd;
+  margin: 0;
+  padding: 0;
+  background-color: #eefffa;
+  background: linear-gradient(135deg, #42bcb355 25%, transparent 25%) -27px 0/
+      54px 54px,
+    linear-gradient(225deg, #42bcb3 25%, transparent 25%) -27px 0/ 54px 54px,
+    linear-gradient(315deg, #42bcb355 25%, transparent 25%) 0px 0/ 54px 54px,
+    linear-gradient(45deg, #42bcb3 25%, #eefffa 25%) 0px 0/ 54px 54px;
+}
+
+.inverted {
+  background: #a993a7;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 6px;
+}
+
+form {
+  background-color: #ffffff;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  border-color: #cccccc;
+  box-shadow: 0 5px 10px -5px rgb(0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+header {
+  background: #039595;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 6px;
+}
+
+header .logo a {
+  font-family: "Pixelify Sans", cursive;
+  font-size: 30px;
+  color: #09524c;
+  text-decoration: none;
+  text-align: right;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #000000;
+  margin: 0 15px;
+  padding: 3px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #00ffc3;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #c0deff;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #83cbcd;
+}
+
+h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#datos-table {
+  margin: auto;
+  background-color: #86d2cc;
+  width: 100%;
+  max-width: 500px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0, 0, 0);
+  text-align: center;
+}
+
+#datos-table th,
+#datos-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#datos-table th {
+  background-color: #a5d0cd;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
